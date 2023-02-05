@@ -1,0 +1,6 @@
+CREATE TABLE employee_payroll (
+id INT AUTO_INCREMENT PRIMARY KEY,
+name VARCHAR (40) NOT NULL,
+salary DECIMAL (10) NOT NULL,
+start_date DATE NOT NULL
+);
